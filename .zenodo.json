@@ -1,0 +1,30 @@
+{
+  "title": "The Open Buddhist University smallpdfs",
+  "keywords": ["buddhism"],
+  "upload_type": "lesson",
+  "description": "<p>A collection of free-distribution files for teaching Buddhism and related topics.</p>",
+  "creators": [{
+    "name": "Khemarato Bhikkhu",
+    "orcid": "0000-0003-4738-7882"
+  }],
+  "access_right": "open",
+  "license": "cc-by-nc-4.0",
+  "related_identifiers": [
+    {
+      "relation": "isPartOf",
+      "identifier": "https://www.buddhistuniversity.net"
+    },{
+      "relation": "isPreviousVersionOf",
+      "identifier": "https://github.com/buddhist-uni/smallpdfs"
+    },{
+      "relation": "isRequiredBy",
+      "identifier": "https://doi.org/10.5281/zenodo.4448510"
+    }
+  ],
+  "subjects": [{
+    "term": "Buddhism",
+    "identifier": "https://id.loc.gov/authorities/subjects/sh85017454.html",
+    "scheme": "url"
+  }],
+  "language": "eng"
+}

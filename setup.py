@@ -35,36 +35,36 @@ HOMEPAGE_TEMPLAGE = """<!DOCTYPE html>
 </html>
 """
 
-ZENODO_TEMPLATE = """{
+ZENODO_TEMPLATE = """{{
   "title": "The Open Buddhist University {repo}",
   "keywords": ["buddhism"],
   "upload_type": "lesson",
   "description": "<p>A collection of free-distribution files for teaching Buddhism and related topics.</p>",
-  "creators": [{
+  "creators": [{{
     "name": "Khemarato Bhikkhu",
     "orcid": "0000-0003-4738-7882"
-  }],
+  }}],
   "access_right": "open",
   "license": "cc-by-nc-4.0",
   "related_identifiers": [
-    {
+    {{
       "relation": "isPartOf",
       "identifier": "https://www.buddhistuniversity.net"
-    },{
+    }},{{
       "relation": "isPreviousVersionOf",
       "identifier": "https://github.com/{username}/{repo}"
-    },{
+    }},{{
       "relation": "isRequiredBy",
       "identifier": "https://doi.org/10.5281/zenodo.4448510"
-    }
+    }}
   ],
-  "subjects": [{
+  "subjects": [{{
     "term": "Buddhism",
     "identifier": "https://id.loc.gov/authorities/subjects/sh85017454.html",
     "scheme": "url"
-  }],
+  }}],
   "language": "eng"
-}
+}}
 """
 
 def get_repo_name() -> tuple[str, str]:
